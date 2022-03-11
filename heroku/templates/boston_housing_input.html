@@ -1,0 +1,33 @@
+<html>
+	<body>
+		<head>
+			<title>
+				Boston Housing Price Predictor
+			</title>
+		</head>
+		<h1>Boston Housing Price Predictor</h1>
+		<form  action = "/boston_housing_predict" >
+			<table>
+				<tr>
+					<td><label for = "rm"> rm </label></td>
+					<td><input type = "text" id = "text_rm" name = "rm"></td>
+					<td>Average number of rooms per dwelling (currently between 3.7 to 8.7)</td>
+				</tr>
+				<tr>
+					<td><label for = "ptratio"> ptratio </label></td>
+					<td><input type = "text" id = "text_ptratio" name = "ptratio"></td>
+					<td>Pupil-teacher ratio by town (currently between 12.6 to 22)</td>
+				</tr>
+				<tr>
+					<td><label for = "lstat"> lstat </label></td>
+					<td><input type = "text" id = "text_lstat" name = "lstat"></td>
+					<td>Percentage lower status of the population (currently between 1.73 to 37.97)</td>
+				</tr>
+			</table>
+			
+			<P>
+				<input type="submit" value="Submit">
+			</P>
+		</form>
+	</body>
+</html>
